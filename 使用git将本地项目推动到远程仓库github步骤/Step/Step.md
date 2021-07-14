@@ -1,6 +1,10 @@
 # 使用git将本地项目推送到远程仓库Github
 
-### 准备工作
+## git常用命令流程图
+
+![](https://gitee.com/YunboCheng/imageBad/raw/master/image/20210714205319.png)
+
+## 准备工作
 
 安装好git软件
 
@@ -141,6 +145,26 @@
 注意有坑： 在上面第5步新建远程仓库的时候如果你勾选了<font color = "red">Initialize this repository with a README</font>（就是创建仓库的时候自动给你创建一个README文件），那么到了第7步你将本地仓库内容推送到远程仓库的时候就会报一个 failed to push some refs to https://github.com/guyibang/TEST2.git 的错。
 
 原因： 由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时我们可以通过 <font color = "red">git pull --rebase origin master</font> 命令先将内容合并,此时再push就能成功了。
+
+补充：
+
+- 生成公钥和密钥
+> ssh-keygen -t rsa;
+
+- 配置个人信息
+> git config --global user.name "abc"
+
+> git config --global user.email 2484720940@qq.com
+
+- 查看已有的配置信息
+> git config --list
+
+- Git 中从远程分支获取最新的版本到本地有两个命令
+  
+  - >git fetch : 相当于是从远程分支获取到最新版本到本地，不会自动merge（合并代码）
+  - >git pull : 相当于是从远程仓库获取到最新版本并 merge到本地
+  
+> git pull = git fetch + git merge
 
 **总结：本地项目通过git上传到github**
 
