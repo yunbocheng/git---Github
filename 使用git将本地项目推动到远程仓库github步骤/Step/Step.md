@@ -96,7 +96,7 @@
 
     2.然后输入：ssh-keygen.exe
 
-    <img src="C:/Users/YunboCheng/AppData/Roaming/Typora/typora-user-images/image-20210626202123336.png" alt="image-20210626202123336" style="zoom:50%;" />
+    <img src="https://gitee.com/YunboCheng/imageBad/raw/master/image/20210710084534.png" alt="image-20210626202123336" style="zoom:50%;" />
 
   - 第二种方式 ：
 
@@ -106,7 +106,7 @@
 
     7.2 	登录Github —>点击右上角的图标 —>选择Settings —>点击左边的SSH and GPG KEYS —>点击右上角的New SSH key —>Title随便填 —>把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面 —>最后点击Add SSH key —>完成SSH Key的加密。具体步骤如下：
 
-    <img src="C:/Users/YunboCheng/AppData/Roaming/Typora/typora-user-images/image-20210626202859880.png" alt="image-20210626202859880" style="zoom:50%;" />
+    <img src="https://gitee.com/YunboCheng/imageBad/raw/master/image/20210710084623.png" alt="image-20210626202859880" style="zoom:50%;" />
 
     7.2	在Github上创建一个Git仓库。
 
